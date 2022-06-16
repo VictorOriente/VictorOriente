@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>BlindSpot</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="logo2.webp" alt="logo">
+        <H1>BlindSpot</H1>
+    </header>
+    <div id="Menu">
+        <a class="fio MenuA" href="#BaseD3">Serviços</a>
+        <a class="fio MenuA" href="#BaseD2">Sobre nós</a>
+        <a class="fio MenuA" href="#BaseD4">Entre em contato</a>
+        <a class="fio MenuA" href="cadastro_login.html">Login/Cadastro</a>
+    </div>
+<main>
+
+    <!--Primeiro Bloco-->
+    <div id="BaseD1">
+        <div id="BD1left">
+            <h2 id="BD1h">BlindSpot e seu projeto</h2>
+            <hr>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Atirei o pau no gatis, per gatis num morreus.Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi.Pra lá , depois divoltis porris, paradis.
+
+                Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Diuretics paradis num copo é motivis de denguis.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi.</p>
+        </div>
+        <img id="img1" src="fotos/BlindSamurai.jpg" alt="reunião">
+    </div>
+
+    <!--Segundo Bloco Sobre nos-->
+    <div id="BaseD2">
+        <div class="BD2">
+            <img id="BD2img1" src="logo2.webp" alt="logo">
+            <img id="BD2img2" src="fotos/Brabo.jpg" alt="diversidade">
+        </div>
+        <div class="BD2">
+            <h2 id="BD2h">Sobre nós</h2><hr>
+            <p> Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem é amistosis quis leo.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.A ordem dos tratores não altera o pão duris.Delegadis gente finis, bibendum egestas augue arcu ut est.
+
+                Manduma pindureta quium dia nois paga.Paisis, filhis, espiritis santis.Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!Leite de capivaris, leite de mula manquis sem cabeça.</p>
+        </div>
+    </div>
+
+    <!--Terceiro Bloco Servicos-->
+    <div id="BaseD3">
+        <h2 id="Titulo3">Serviços</h2>
+        <div class="display-flex">
+            <div class="card m-3 flex-direction-column justify-content-space-between">
+                <h2 class="BD3h">Games</h2>
+                <img class="m-1 img" src="fotos/iconi1.png" alt="site">
+                <p class="m-0">Mussum Ipsum, cacilds vidis litro abertis. Sapien in monti palavris qui num significa nadis i pareci latim.A ordem dos tratores não altera o pão duris.Viva Forevis aptent taciti sociosqu ad litora torquent.Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.</p>
+            </div>
+
+            <div class="card m-3 flex-direction-column justify-content-space-between">
+                <h2 class="BD3h Titulo3">Design e Fluxos</h2>
+                <img class="m-1 img" src="fotos/iconi2.png" alt="desing">
+                <p class="m-0">Mussum Ipsum, cacilds vidis litro abertis. Cevadis im ampola pa arma uma pindureta.Sapien in monti palavris qui num significa nadis i pareci latim.Diuretics paradis num copo é motivis de denguis.Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+            </div>
+
+            <div class="card m-3 flex-direction-column justify-content-space-between">
+                <h2 class="BD3h Titulo3">Cripto-Moedas</h2>
+                <img class="m-1 img" src="fotos/iconi3.png" alt="Banco de dados">
+                <p class="m-0">Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Quem manda na minha terra sou euzis!Aenean aliquam molestie leo, vitae iaculis nisl.Suco de cevadiss deixa as pessoas mais interessantis.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Quarto Bloco Entre em contato-->
+    <div id="BaseD4">
+    <h2 class="Titulo4">Entre em contato</h2>
+        <div class="display-flex">
+            <div class="BD4L">
+                <h3>Contato BlindSpot:</h3>
+                <h4>Infelismente, somente por e-mail!</h4>
+                <img id="imgContato" src="./BlindLobo.jpg" alt="Coitado do TI">
+            </div>
+            <div class="BD4R">
+                <h2 class="BD4h">Dúvidas?<br>Temos uma equipe preparada para você!</h2>
+                    <div class="flex-input">
+                        <input id="nome" type="text" placeholder="Nome:"/>
+                        <span id="erroNome" class="error not-show">Por favor, preencha seu nome</span>
+                    </div>
+                    <div class="flex-input">
+                        <input id="sobrenome" type="text" placeholder="Sobrenome:"/>
+                        <span id="erroSobrenome" class="error not-show">Por favor, preencha seu Sobrenomenome</span>
+                    </div>
+                    <div class="flex-input">
+                        <input id="email" type="text" placeholder="E-mail:"/>
+                        <span id="erroEmail" class="error not-show">Por favor, preencha seu Email</span>
+                    </div>
+                    <div class="flex-input">
+                        <input id="numeroCelular" type="text" placeholder="Número celular:"/>
+                        <span id="erroNumeroCelular" class="error not-show">Por favor, preencha seu número de Celular</span>
+                    </div>
+                    <button onclick="enviar()" class="btn m-3" type="submit">Enviar</button>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div id="Basedfooter">
+        <div class="Blink">
+            <h2>Fica Ligado nos Recursos:</h2>
+            <a class="BFa" href="#logo">Home</a>
+            <a class="BFa" href="#BaseD3">Serviços</a>
+            <a class="BFa" href="#BaseD2">Sobre nós</a>
+            <a class="BFa" href="#BaseD4">Entre em contato</a>
+            <a class="BFa" href="cadastro_login.html">Login/Cadastro</a>
+        </div>
+        <div class="imgF">
+            <img class="iconis" src="fotos/img_fc.png" alt="Facebook">
+            <img class="iconis" src="fotos/img_insta.png" alt="Instragram">
+            <img class="iconis" src="fotos/img_in.png" alt="linkedin">
+        </div>
+    </div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
